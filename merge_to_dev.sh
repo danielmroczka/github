@@ -7,4 +7,4 @@ export GIT_COMMITTER_NAME=danielmroczka
 
 git checkout dev || exit
 git merge "$TRAVIS_COMMIT" || exit
-git push 
+git push
