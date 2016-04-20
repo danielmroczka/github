@@ -1,0 +1,1 @@
+after_success: ./merge_to_dev.sh
