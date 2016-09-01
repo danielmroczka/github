@@ -1,2 +1,3 @@
 # github
-The sandbox with all related to github features
+The sandbox with all related to github features.
+- Automatic merge master to dev
