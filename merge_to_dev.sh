@@ -5,8 +5,7 @@ fi
 export GIT_COMMITTER_EMAIL=daniel.mroczka@gmail.com
 export GIT_COMMITTER_NAME=danielmroczka
 
-//git remote add origin https://github.com/danielmroczka/github.git
 git fetch 
-git checkout origin/dev || exit
+git checkout -b origin/dev || exit
 git merge "$TRAVIS_COMMIT" || exit
 git push
