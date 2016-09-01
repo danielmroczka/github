@@ -1,3 +1,6 @@
 language: java
 script: mvn clean 
+before_install:
+ - chmod +x ./merge_to_dev.sh
 after_success: ./merge_to_dev.sh
+
