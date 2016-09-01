@@ -10,4 +10,4 @@ git fetch
 git config --global push.default simple
 git checkout -b origin/dev || exit
 git merge "$TRAVIS_COMMIT" || exit
-git push
+git push --set-upstream origin origin/dev
